@@ -1,0 +1,23 @@
+###### If you edit this page, you must [click this link, then click "send"](http://www.reddit.com/message/compose/?to=AutoModerator&subject=bugbounty&message=schedule) to have AutoModerator re-load the schedule from here
+
+---
+
+# Weekly sticky post
+
+    first: "November 04, 2019 8:00 AM"
+    repeat: 1 week
+    distinguish: true
+    sticky: true
+    title: "Weekly Discussion, {{date %B %d, %Y}}: Ask all your bugbounty questions!"
+    text: |
+        Please utilize this sticky thread for all general discussions!
+
+        Here are the general rules:
+
+        * If you'd like to learn something, ask.
+        * If you'd like to share knowledge, answer.
+        * Any discussion about bug bounty is fair game.
+
+        **You can sort by new to see the latest questions that may not be answered yet.**
+
+---
