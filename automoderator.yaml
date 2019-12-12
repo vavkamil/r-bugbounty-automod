@@ -1,4 +1,4 @@
-## If you edit this page, you must [click this link, then click "send"](http://www.reddit.com/message/compose/?to=AutoModerator&subject=bugbounty&message=update) to have AutoModerator re-load the schedule from here
+###### If you edit this page, you must [click this link, then click "send"](http://www.reddit.com/message/compose/?to=AutoModerator&subject=bugbounty&message=update) to have AutoModerator re-load the schedule from here
 
 # All Caps Title Filter
 
@@ -17,7 +17,7 @@
 
 ---
 
-# Remove posts from accounts with less than 3 karma
+# Remove posts from accounts with less than 7 karma
 
     author:
         comment_karma: "< 7"
@@ -32,16 +32,9 @@
         comment_karma: "< 7"
         is_moderator: false
     action: remove
-    modmail_subject: low karma user
-    modmail: |
-        The following {{kind}} by /u/{{author}} has been removed as they have less than 1 comment karma
-        ---
-    
-        Title: {{title}}
-        
-        URL: {{url}}   
-        
-        Body: {{body}}
+    message: |
+        Hey, your comment was automatically removed because your account does not meet our karma standards. Accounts must have a minimum of 7 comment karma (not post karma or combined karma) to post comments. This rule is meant to improve the quality of posts being submitted while mitigating abuse from troll accounts. Please see the sub-rules section to understand how to behave on our threads.
+    comment: Sorry, your submission has been automatically removed. Your account have less than a 7 comment karma.
 
 ---
 
